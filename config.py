@@ -25,28 +25,28 @@ APP_ID = int(os.environ.get("APP_ID", "14031130"))
 API_HASH = os.environ.get("API_HASH", "e24c9b194237b7874ee602d782521a67")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002049130627"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002298431361"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "6699681580"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "7201053234"))
 
 #Port
 PORT = os.environ.get("PORT", "8585")
 
 #Database 
 #Database [https://youtu.be/qFB0cFqiyOM?si=fVicsCcRSmpuja1A]
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://sukhwindersandhu00445:U9HA5V1eDBsIi03H@cluster0.dgqdl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://ankushdeb91:WpbkXkwE0rL98h7q@cluster0.cpl3y.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 
 #Shortner (token system) 
 # check my discription to help by using my refer link of shareus.io
 # 
 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "modijiurl.com")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "0b12741fb3894a59ca534181f8fb60a83b107b38")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "shortxlink.com")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "26c58ac6c7879cf25966a3f6fc999c9c1e3c9315")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
-TUT_VID = os.environ.get("TUT_VID", "https://t.me/OttSandhu") # shareus ka tut_vid he 
+TUT_VID = os.environ.get("TUT_VID", "https://t.me/akmoviefile0/18") # shortxlink ka tut_vid he 
 
 #force sub channel id, if you want enable force sub
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
@@ -57,7 +57,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 START_MSG = os.environ.get("START_MESSAGE", "𝑯𝒆𝒍𝒍𝒐! <a href='tg://user?id={id}'><b>{first}</b></a>\n 𝑰 𝒂𝒎 𝒚𝒐𝒖𝒓 𝑴𝒐𝒗𝒊𝒆 𝑷𝒓𝒐𝒗𝒊𝒅𝒆𝒓 𝑭𝒊𝒍𝒆 𝑩𝒐𝒕. 𝑰 𝒂𝒎 𝒉𝒆𝒓𝒆 𝒕𝒐 𝒐𝒇𝒇𝒆𝒓 𝒚𝒐𝒖 𝒂 𝒗𝒂𝒔𝒕 𝒄𝒐𝒍𝒍𝒆𝒄𝒕𝒊𝒐𝒏 𝒐𝒇 𝒕𝒉𝒆 𝒍𝒂𝒕𝒆𝒔𝒕 𝒃𝒍𝒐𝒄𝒌𝒃𝒖𝒔𝒕𝒆𝒓𝒔, 𝒕𝒊𝒎𝒆𝒍𝒆𝒔𝒔 𝒄𝒍𝒂𝒔𝒔𝒊𝒄𝒔, 𝒂𝒏𝒅 𝒉𝒊𝒅𝒅𝒆𝒏 𝒈𝒆𝒎𝒔. 𝑮𝒆𝒕 𝒓𝒆𝒂𝒅𝒚 𝒕𝒐 𝒅𝒊𝒗𝒆 𝒊𝒏𝒕𝒐 𝒕𝒉𝒆 𝒘𝒐𝒓𝒍𝒅 𝒐𝒇 𝒄𝒊𝒏𝒆𝒎𝒂 𝒂𝒕 𝒚𝒐𝒖𝒓 𝒄𝒐𝒏𝒗𝒆𝒏𝒊𝒆𝒏𝒄𝒆.\n𝑻𝒉𝒂𝒏𝒌 𝒚𝒐𝒖 𝒇𝒐𝒓 𝒋𝒐𝒊𝒏𝒊𝒏𝒈 𝒐𝒖𝒓 𝒄𝒉𝒂𝒏𝒏𝒆𝒍, 𝒂𝒏𝒅 𝒆𝒏𝒋𝒐𝒚 𝒕𝒉𝒆 𝒔𝒉𝒐𝒘!")
 try:
     ADMINS=[]
-    for x in (os.environ.get("ADMINS", "6699681580 6316008361").split()):
+    for x in (os.environ.get("ADMINS", "7201053234").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
@@ -78,7 +78,7 @@ BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "𝙳𝚘𝚗𝚝 𝙳𝚘 𝙰𝚐𝚊𝚒𝚗 𝙸'𝚕𝚕 𝙺𝚒𝚕𝚕 𝚈𝚘𝚞 "
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(6695586027)
+ADMINS.append(7201053234)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
