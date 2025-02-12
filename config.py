@@ -8,8 +8,8 @@ TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
 
 
 BAN = int(os.environ.get("BAN", "498459845"))
-DELETE_AFTER = int(os.environ.get("DELETE_AFTER", 300)) #seconds
-NOTIFICATION_TIME = int(os.environ.get('NOTIFICATION_TIME', 300)) #seconds
+DELETE_AFTER = int(os.environ.get("DELETE_AFTER", 86400)) #seconds
+NOTIFICATION_TIME = int(os.environ.get('NOTIFICATION_TIME', 86400)) #seconds
 AUTO_DELETE = os.environ.get("AUTO_DELETE", True) #ON/OFF
 DELETE_INFORM = os.environ.get("INFORM" , "Successfully DELETED !!")
 NOTIFICATION = os.environ.get("NOTIFICATION" ,f"𝚃𝚑𝚒𝚜 𝙵𝚒𝚕𝚎 𝚆𝚒𝚕𝚕 𝙱𝚎 𝚍𝚎𝚕𝚎𝚝𝚎𝚍 𝙸𝚗 {DELETE_AFTER}")
@@ -69,7 +69,7 @@ FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "𝙹𝚘𝚒𝚗 𝙾𝚞𝚛 �
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "This video/Photo/anything is available on the internet. We LeakHubd or its subsidiary channel doesn't produce any of them.")
 
 #set True if you want to prevent users from forwarding files from bot
-PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "True") == "True" else False
+PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" else False
 
 #Set true if you want Disable your Channel Posts Share button
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
