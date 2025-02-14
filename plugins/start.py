@@ -209,7 +209,7 @@ async def start_command(client: Client, message: Message):
                     [InlineKeyboardButton("𝗖𝗹𝗶𝗰𝗸 𝗵𝗲𝗿𝗲", url=link)],
                     [InlineKeyboardButton('𝗛𝗼𝘄 𝘁𝗼 𝘂𝘀𝗲 𝘁𝗵𝗲 𝗯𝗼𝘁', url=TUT_VID)]
                 ]
-                await message.reply(f"👉 <b>Your Ads token is expired, refresh your token and try again.</b>🔃\n\n🎟️ <b>Token Timeout: {get_exp_time(VERIFY_EXPIRE)}</b>⏲️\n\n<b>What is the token?\n\nThis is an ads token.🎟️ If you pass 1 ad, you can use the bot for 24 Hour⏲️  after passing the ad.</b>\n\n<b>APPLE/IPHONE USERS COPY TOKEN LINK AND OPEN IN CHROME BROWSER</b>", reply_markup=InlineKeyboardMarkup(btn), protect_content=False, quote=True)
+                await message.reply(f"👉 <b>आपका Token Expired हो गया है, फिर से Token प्राप्त करें .</b>🔃\n\n🎟️ <b>Token Timeout: {get_exp_time(VERIFY_EXPIRE)}</b>⏲️\n\n<b>Token क्या है ?\n\nयह एक तरह का ad है 🎟️ अगर आप एक बार यह ad देख कर token प्राप्त कर लेते हो तो आप 24 Hour तक फ्री में आनदं ले सकते हो ⏲️  after passing the ad.</b>\n\n<b>APPLE/IPHONE USERS COPY TOKEN LINK AND OPEN IN CHROME BROWSER</b>", reply_markup=InlineKeyboardMarkup(btn), protect_content=False, quote=True)
 
         
 #=====================================================================================##
