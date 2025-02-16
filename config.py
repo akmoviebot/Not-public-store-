@@ -45,7 +45,7 @@ DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "indiaearnx.com")
 SHORTLINK_API = os.environ.get("SHORTLINK_API", "3ea21027089b1486b9bca591ff74dda8b033091d")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
-IS_VERIFY = os.environ.get("IS_VERIFY", "False")
+IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID", "https://t.me/akmoviefile0/18") # shortxlink ka tut_vid he 
 
 #force sub channel id, if you want enable force sub
